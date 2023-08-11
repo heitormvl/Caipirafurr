@@ -8,7 +8,9 @@
         url("https://db.onlinewebfonts.com/t/3591a95e9abd510d170b0ba4077e70d3.svg#Nimbus Sans TW01Con")format("svg");
 }
 
-
+p {
+    margin-bottom: 0 !important;
+}
 
 body {
     background-image: url(../img/background.webp);
