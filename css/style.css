@@ -9,7 +9,7 @@
 
 /* Estilo geral */
 p {
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
 }
 
 body {
@@ -22,19 +22,16 @@ body {
 }
 
 /* Estilo da navbar */
-
 .navbar {
     background: #ea6655;
 }
 
 /* Estilo da seção home */
-
 #home {
     color: white;
 }
 
 /* Estilo das seções */
-
 section {
     color: white;
 }
@@ -44,48 +41,45 @@ section h2 {
 }
 
 /* Estilo das caixas */
-
 .caixa {
-    padding: 60px 0;
-    margin-bottom: 15px;
+    padding: 3rem 0;
+    margin-bottom: 1.5rem;
 }
 
 .caixa p {
-    margin-bottom: 10px !important;
+    margin-bottom: 1rem;
 }
 
 /* Estilo do rodapé */
-
 footer p a {
-    margin: 5px 15px;
+    margin: 0.3125rem 0.9375rem;
 }
 
 /* Fundos com efeito de desfoque */
+.fundo-branco,
+.fundo-preto {
+    backdrop-filter: blur(0.625rem) saturate(100%);
+    -webkit-backdrop-filter: blur(0.625rem) saturate(100%);
+    border-radius: 0.75rem;
+}
 
 .fundo-branco {
-    backdrop-filter: blur(10px) saturate(100%);
-    -webkit-backdrop-filter: blur(10px) saturate(100%);
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 12px;
     color: black;
 }
 
 .fundo-preto {
-    backdrop-filter: blur(10px) saturate(100%);
-    -webkit-backdrop-filter: blur(10px) saturate(100%);
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 12px;
     color: white;
 }
 
 /* Estilos específicos */
-
 .primeiro-maior {
     font-size: 1.3rem;
 }
 
 .parceiros img {
     border-radius: 10%;
-    margin: 5px;
-    width: 50px;
+    margin: 0.3125rem;
+    width: 3.125rem;
 }
