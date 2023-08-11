@@ -39,6 +39,10 @@ section h2 {
     margin-bottom: 15px;
 }
 
+.caixa p {
+    margin-bottom: 10px !important;
+}
+
 footer p a {
     margin: 5px 15px;
 }
