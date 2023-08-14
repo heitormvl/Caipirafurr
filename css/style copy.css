@@ -23,6 +23,10 @@ body {
     padding-top: 70px;
 }
 
+iframe {
+    border-radius: 0.75rem;
+}
+
 /* Estilo da navbar */
 .navbar {
     background: #ea6655;
@@ -55,6 +59,19 @@ section h2 {
 .caixa-primeira {
     margin-bottom: 0;
 }
+
+/* Estilo carrossel */
+
+.carousel button {
+    background-color: #ea6655;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+/* test */
 
 /* Estilo do rodapé */
 footer p a {
