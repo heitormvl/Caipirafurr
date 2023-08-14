@@ -58,20 +58,42 @@ section h2 {
 
 .caixa-primeira {
     margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 /* Estilo carrossel */
 
-.carousel button {
-    background-color: #ea6655;
-    border-radius: 50%;
-    border: none;
-    font-size: 1.5rem;
-    height: 3rem;
-    width: 3rem;
+.carousel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Ajuste o valor conforme necessário */
 }
 
-/* test */
+.carousel button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    height: 20%;
+    width: auto;
+    /* Centraliza verticalmente dentro do carrossel */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.carousel button:focus {
+    outline: none;
+}
+
+.carousel button i:hover {
+    color: white;
+}
 
 /* Estilo do rodapé */
 footer p a {
