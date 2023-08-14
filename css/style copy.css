@@ -52,6 +52,10 @@ section h2 {
     margin-bottom: 1rem;
 }
 
+.caixa-primeira {
+    margin-bottom: 0;
+}
+
 /* Estilo do rodapé */
 footer p a {
     margin: 0.3125rem 0.9375rem;
@@ -81,7 +85,7 @@ footer p a {
 }
 
 .accordion-item {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(225, 225, 225, 0.5);
     border-radius: 0.75rem;
     margin-bottom: 1.5rem;
 }
