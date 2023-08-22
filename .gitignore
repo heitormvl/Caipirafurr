@@ -1,1 +1,2 @@
-./Prints/
+# Ignora a pasta prints dentro da raiz do projeto
+**/prints
